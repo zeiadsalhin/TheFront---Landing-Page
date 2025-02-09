@@ -117,7 +117,7 @@ const Grids = ({darkMode}) => {
 
   return (
     <>
-    <Box className="md:max-w-[77rem] md:min-h-[34rem] mb-10 px-4.5 mx-auto" ref={targetRef}>
+    <Box className="md:max-w-[77rem] md:min-h-[34rem]  px-4.5 mx-auto" ref={targetRef}>
       <Grid container spacing={4}>
         {items.map((item, index) => (
           <Grid item xs={12} sm={6} md={4} key={index} className="reveal">
@@ -143,7 +143,7 @@ const Grids = ({darkMode}) => {
         ))}
       </Grid>
     </Box>
-    <svg className="" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1920 100.1">
+    <svg className="mb-10a" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1920 100.1">
         <path fill={`${darkMode ? '#121212' : '#ffffff'}`} d="M0,0c0,0,934.4,93.4,1920,0v100.1H0L0,0z"></path>
       </svg>        
         </>
