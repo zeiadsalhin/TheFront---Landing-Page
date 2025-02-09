@@ -18,7 +18,7 @@ const Fold = ({ theme, darkMode}) => {
   return (
         <ThemeProvider theme={theme}>
     
-    <Box className="mb-10">
+    <Box>
       <Box className="flex max-w-[80rem] max-h-fit mx-auto relative">
         <Box className="md:my-20 my-10 md:min-h-[32rem]">
           <Box className="main flex">
