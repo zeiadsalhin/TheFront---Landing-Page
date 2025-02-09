@@ -41,7 +41,7 @@ function App() {
       <CssBaseline />
       
       <div className="overflow-hidden">
-        <div className="main min-h-[5000px] md:min-h-[3600px]">
+        <div className="main sm:min-h-[4600px] min-h-[5500px] md:min-h-[3600px]">
           
           <div className="md:hidden">
             <Suspense>
