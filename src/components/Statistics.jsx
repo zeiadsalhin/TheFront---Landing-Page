@@ -117,6 +117,7 @@ const Statistics = () => {
                 image="https://assets.maccarianagency.com/backgrounds/img4.jpg"
                 alt="success"
                 sx={{ backgroundSize: 'cover', height: '100%' }}
+                loading='lazy'
               />
             </Card>
           </Grid>

@@ -63,7 +63,7 @@ function App() {
             </Suspense>
           </div>
 
-          <div className={`min-h-[1500px] bg-gradient-to-b ${darkMode ? 'from-[#121212] to-[#141827]' : 'from-white to-gray-100'}`}>
+          <div className={`min-h-[2770px] md:min-h-[1900px] bg-gradient-to-b ${darkMode ? 'from-[#121212] to-[#141827]' : 'from-white to-gray-100'}`}>
             <div className="">
               <Suspense>
                 <Text theme={theme} />
