@@ -4,7 +4,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Footer = ({darkMode}) => {
   return (
-    <Box className="mt-12 mb-8">
+    <Box className="mb-8">
       <Box className="my-20">
         <Typography variant="h4" align="center" fontWeight='500' gutterBottom style={{ '--Typography-textAlign': 'center' }}>
           Get started with theFront today
