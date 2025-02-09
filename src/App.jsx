@@ -57,7 +57,7 @@ function App() {
             </div>
           </div>
 
-          <div className={`xs:min-h-[560px] md:min-h-[700px] xl:min-h-[730px] bg-gradient-to-b ${darkMode ? 'from-[#121212] to-[#141827]' : 'from-white to-gray-100'}`}>
+          <div className={`my-10 xs:min-h-[550px] sm:min-h-[480px] min-h-[460px] md:min-h-[700px] xl:min-h-[730px] bg-gradient-to-b ${darkMode ? 'from-[#121212] to-[#141827]' : 'from-white to-gray-100'}`}>
             <Suspense>
               <Fold theme={theme} darkMode={darkMode} />
             </Suspense>

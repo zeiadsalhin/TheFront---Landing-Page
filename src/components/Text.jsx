@@ -35,7 +35,7 @@ const Text = () => {
     <Box>
       <Box className="md:max-w-[79rem] mx-auto min-h-fit px-4.5">
         <Box>
-          <Box className='mt-10'>
+          <Box>
             
             <Box>
               <Typography variant="h4" align="center" fontWeight='fontWeightMedium' gutterBottom>
