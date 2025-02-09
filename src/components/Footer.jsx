@@ -48,7 +48,7 @@ const Footer = ({darkMode}) => {
           </Grid>
           <Grid item xs={12} className="text-center">
           <Typography variant="subtitle1" align="center" fontWeight='400' gutterBottom className="my-auto" >
-          <Link href="https://github.com/your-github-profile" target="_blank" color="inherit">
+          <Link href="https://github.com/zeiadsalhin" target="_blank" color="inherit">
           Developed by Alfa
                 <GitHubIcon sx={{ verticalAlign: 'top', ml: 1 }} />
               </Link>
