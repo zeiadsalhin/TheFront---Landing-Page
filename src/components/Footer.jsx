@@ -31,7 +31,7 @@ const Footer = ({darkMode}) => {
           <Grid item xs={12}>
             <Box className="flex md:flex-row flex-col gap-4 justify-between items-center mt-8">
               <Link href="/" title="theFront">
-                <img className={`max-w-[5rem] ${darkMode ? 'invert-50 ' : undefined }`} src="https://assets.maccarianagency.com/the-front/logos/logo.svg" alt="theFront Logo" />
+                <img className='max-w-[5rem]' src={`https://assets.maccarianagency.com/the-front/logos/logo${ darkMode ? '-negative' : '' }.svg`} alt="theFront Logo" />
               </Link>
               <Box className="flex justify-center gap-4 my-auto">
                   <Link href="#" className="pt-1">

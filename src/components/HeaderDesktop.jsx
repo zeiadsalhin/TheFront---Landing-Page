@@ -28,7 +28,7 @@ const HeaderDesktop = ({ theme, darkMode, handleDarkModeToggle }) => {
             </Box>
         <Toolbar variant='dense' className='mb-2'>
           <Typography variant="h6" style={{ flexGrow: 1 }}>
-            <img src="./logo.svg" className={`w-[7rem] ${darkMode ? 'invert' : undefined }`} width='100%' height='100%' alt="logo" />
+            <img src={`https://assets.maccarianagency.com/the-front/logos/logo${ darkMode ? '-negative' : '' }.svg`} className='w-[7rem]' width='100%' height='100%' alt="logo" />
           </Typography>
             <Box sx={{ display: { md: 'flex' } }}>
               <Button color="primary" variant='text'>Home</Button>

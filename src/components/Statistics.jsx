@@ -112,6 +112,7 @@ const Statistics = () => {
               <CardMedia
                 className="max-h-[25.2rem]"
                 component="img"
+                width="100%"
                 height="120"
                 image="https://assets.maccarianagency.com/backgrounds/img4.jpg"
                 alt="success"

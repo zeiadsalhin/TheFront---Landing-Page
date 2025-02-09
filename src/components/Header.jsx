@@ -132,8 +132,8 @@ const Header = ({darkMode, handleDarkModeToggle }) => {
             </Box>
             <Toolbar>
         <Typography variant="h6" style={{ flexGrow: 1 }}>
-          <img src="./logo.svg" 
-          className={`w-[7rem] ${darkMode ? 'invert' : undefined}`} 
+          <img src={`https://assets.maccarianagency.com/the-front/logos/logo${ darkMode ? '-negative' : '' }.svg`} 
+          className='w-[7rem]'
           width='100%' 
           height='100%' 
           alt="logo" />
@@ -157,8 +157,8 @@ const Header = ({darkMode, handleDarkModeToggle }) => {
             <Box sx={{ p: 2 }} className='min-h-[3.5rem]'>
             <a href="#" title="theFront">
                 <img 
-                className={`max-w-[6rem] mx-2 ${darkMode ? undefined : 'invert'}`} 
-                src="https://assets.maccarianagency.com/the-front/logos/logo-negative.svg" 
+                className='max-w-[6rem]' 
+                src={`https://assets.maccarianagency.com/the-front/logos/logo${ darkMode ? '-negative' : '' }.svg`}
                 alt="theFront" />
               </a>
             </Box>
