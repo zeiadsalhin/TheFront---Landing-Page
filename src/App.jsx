@@ -63,20 +63,20 @@ function App() {
             </Suspense>
           </div>
 
-          <div className={`min-h-[2770px] md:min-h-[1900px] bg-gradient-to-b ${darkMode ? 'from-[#121212] to-[#141827]' : 'from-white to-gray-100'}`}>
-            <div className="">
+          <div className={` bg-gradient-to-b ${darkMode ? 'from-[#121212] to-[#141827]' : 'from-white to-gray-100'}`}>
+            <div className="min-h-[1400px] md:min-h-[800px]">
               <Suspense>
                 <Text theme={theme} />
               </Suspense>
             </div>
 
-            <div className="">
+            <div className="min-h-[1200px] md:min-h-[700px]">
               <Suspense>
                 <Statistics theme={theme} />
               </Suspense>
             </div>
 
-            <div className="">
+            <div className="min-h-[1200px] md:min-h-[700px]">
               <Suspense>
                 <Grids theme={theme} darkMode={darkMode} />
               </Suspense>
