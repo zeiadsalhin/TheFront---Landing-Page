@@ -57,7 +57,7 @@ function App() {
             </div>
           </div>
 
-          <div className={` bg-gradient-to-b ${darkMode ? 'from-[#121212] to-[#141827]' : 'from-white to-gray-100'}`}>
+          <div className={`min-h-[400px] md:min-h-[700px] bg-gradient-to-b ${darkMode ? 'from-[#121212] to-[#141827]' : 'from-white to-gray-100'}`}>
             <Suspense>
               <Fold theme={theme} darkMode={darkMode} />
             </Suspense>
