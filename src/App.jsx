@@ -57,13 +57,13 @@ function App() {
             </div>
           </div>
 
-          <div className={`my-10 xs:min-h-[550px] sm:min-h-[480px] min-h-[460px] md:min-h-[700px] xl:min-h-[730px] bg-gradient-to-b ${darkMode ? 'from-[#121212] to-[#141827]' : 'from-white to-gray-100'}`}>
+          <div className={`max-xs:min-h-[550px] max-sm:min-h-[460px] max-min-h-[560px] md:min-h-[700px] xl:min-h-[730px] bg-gradient-to-b ${darkMode ? 'from-[#121212] to-[#141827]' : 'from-white to-gray-100'}`}>
             <Suspense>
               <Fold theme={theme} darkMode={darkMode} />
             </Suspense>
           </div>
 
-          <div className={` bg-gradient-to-b ${darkMode ? 'from-[#121212] to-[#141827]' : 'from-white to-gray-100'}`}>
+          <div className={`mt-10 bg-gradient-to-b ${darkMode ? 'from-[#121212] to-[#141827]' : 'from-white to-gray-100'}`}>
             <div className="min-h-[1400px] md:min-h-[800px]">
               <Suspense>
                 <Text theme={theme} />
