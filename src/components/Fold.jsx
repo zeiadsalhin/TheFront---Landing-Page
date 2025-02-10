@@ -23,7 +23,7 @@ const Fold = ({ theme, darkMode}) => {
         <Box className="md:my-20 my-10 md:min-h-[32rem]">
           <Box className="main flex">
             <Box className="text xl:max-w-[40rem] md:max-w-[34rem] px-5 md:p-10 z-20">
-              <Typography variant="h2" fontWeight='fontWeightMedium' gutterBottom className="font-black">
+              <Typography variant="h2" sx={{fontSize: {xs: 48, sm: 48, md: 60}}} fontWeight='fontWeightMedium' gutterBottom className="font-black">
                 Turn your ideas<br />into <span className="text-blue-500 underline underline-offset-4 decoration-yellow-300">success.</span>
               </Typography>
               <Typography variant="h6" fontWeight='fontWeightLight' color='gray'>

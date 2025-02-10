@@ -41,7 +41,6 @@ function App() {
       <CssBaseline />
       
       <div className="overflow-hidden">
-        {/* <div className="main sm:min-h-[4600px]a min-h-[5577px] amd:min-h-[3600px]"> */}
           
           <div className="md:hidden min-h-[95px]">
             <Suspense>
@@ -49,7 +48,7 @@ function App() {
             </Suspense>
           </div>
 
-          <div className={`hiddenm relative w-full z-20 ${darkMode ? 'bg-[#121212]' : 'bg-[#ffffff]'}`}>
+          <div className={`hiddenm min-h-[90px] relative w-full z-20 ${darkMode ? 'bg-[#121212]' : 'bg-[#ffffff]'}`}>
             <div className='md:max-w-[90rem] mx-auto'>
               <Suspense>
                 <HeaderDesktop theme={theme} darkMode={darkMode} handleDarkModeToggle={handleDarkModeToggle} />
@@ -89,7 +88,6 @@ function App() {
             </Suspense>
           </div>
         </div>
-      {/* </div> */}
     </ThemeProvider>
   );
 }
