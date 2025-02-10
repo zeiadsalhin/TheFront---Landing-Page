@@ -43,7 +43,7 @@ function App() {
       <div className="overflow-hidden">
         {/* <div className="main sm:min-h-[4600px]a min-h-[5577px] amd:min-h-[3600px]"> */}
           
-          <div className="md:hidden min-h-[90px]">
+          <div className="md:hidden min-h-[95px]">
             <Suspense>
               <Header theme={theme} darkMode={darkMode} handleDarkModeToggle={handleDarkModeToggle} />
             </Suspense>
